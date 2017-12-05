@@ -1,0 +1,65 @@
+Pre-requisite
+HTML
+CSS
+
+basic of OOPS
+
+
+Installation doc:
+
+1. Node
+	https://nodejs.org/en/
+2. npm 
+	It gets installed with node.
+3. Typescript  -- optional
+	npm install -g typescript
+	tsc -v --check the version of typescript
+4. IDE
+	VS Code : https://code.visualstudio.com/
+
+5. Angular CLI:
+	npm install -g @angular/cli
+
+
+Languages:
+
+1. Typescript
+2. Javasctipt
+3. Dart
+
+
+Typescript:
+
+What:
+
+1. Superset of javascript - to code for frontend
+2. Gives you flexibility to generate the javascript code , based on configuration
+3. The code which gets generates is the optimized js code.
+4. Typscript is type safe.
+
+History:
+created in 2011 by microsoft.
+
+
+
+To create App:
+
+ng new ContactManagementApp
+
+
+Typescript/Javasctipt Modules:
+
+Every file is a module.
+
+Config File:
+
+1. tsc -init
+
+Create task to automate the process of creating JS files:
+1. Go to Tasks -> Configure Default Build Task -> use watch mode.
+2. Got to Tasks -> Run Build Task
+
+tsconfig.json:
+1. target: choose the js version
+2. noImplicitAny :  make it true to disable the usage of any data type.
+3. sourceMap: will link our js and ts file, so we can debug ts files.
